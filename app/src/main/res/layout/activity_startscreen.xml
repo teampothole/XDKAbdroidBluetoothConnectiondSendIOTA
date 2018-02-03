@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Copyright (c) 2009, 2016 Robert Bosch GmbH and its subsidiaries.
+  ~ This program and the accompanying materials are made available under
+  ~  the terms of the Bosch Internal Open Source License v4
+  ~ which accompanies this distribution, and is available at
+  ~ http://bios.intranet.bosch.com/bioslv4.txt
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/startScreenRoot"
+    style="@style/default_style"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context="elevate.app.cose.ui.MainActivity">
+
+    <!--<elevate.app.cose.ui.elements.header.Header-->
+        <!--android:id="@+id/startheader"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:paddingRight="20dp"-->
+        <!--app:header_disable_back="true"-->
+        <!--app:header_title="mainmenu.headline" />-->
+
+    <HorizontalScrollView
+        android:id="@+id/scoller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#18191A"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layoutAssistant"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <elevate.app.cose.ui.elements.textview.CustomTextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="startscreen.appointmenttitle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textSize="14sp"
+                        android:textStyle="normal|bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+                        <ImageView
+                            android:id="@+id/appointmentImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:orientation="vertical" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_margin="2dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <elevate.app.cose.ui.elements.textview.html.HtmlTextView
+                            android:id="@+id/appointmentStartTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="startscreen.oclock" />
+
+                        <elevate.app.cose.ui.elements.textview.html.HtmlTextView
+                            android:id="@+id/appointmentContent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="startscreen.name"
+                            android:textStyle="bold" />
+
+                        <elevate.app.cose.ui.elements.textview.html.HtmlTextView
+                            android:id="@+id/appointmentStreet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="startscreen.street" />
+
+                        <elevate.app.cose.ui.elements.textview.html.HtmlTextView
+                            android:id="@+id/appointmentTown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="startscreen.town" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:splitMotionEvents="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:splitMotionEvents="false">
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileNavigation"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileNavigation" />
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileSmartHome"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileSmartHome" />
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileDiagnostics"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileDiagnostics" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:splitMotionEvents="false">
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileCalendar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileCalendar" />
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileMessages"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileMessages" />
+
+                        <elevate.app.cose.ui.elements.tile.startscreentile.StartScreenTile
+                            android:id="@+id/tileReminder"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:enabled="false"
+                            android:tag="tileReminder" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

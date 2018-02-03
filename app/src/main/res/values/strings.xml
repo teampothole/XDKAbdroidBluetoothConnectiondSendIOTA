@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pothole</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="blue_on_off">BLUE On/Off</string>
+    <string name="textview">TextView</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

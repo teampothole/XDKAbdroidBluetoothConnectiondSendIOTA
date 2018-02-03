@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="TransparentGray">#18191A</color>
+
+    <color name="backgroundColor">#111</color>
+
+    <!-- Shades of Red -->
+    <color name="RedW75">#F8BFC5</color>
+    <color name="RedW50">#F17F8B</color>
+    <color name="RedW25">#EA4051</color>
+    <color name="Red">#E30015</color>
+    <color name="RedB25">#A90010</color>
+    <color name="RedB50">#71000B</color>
+    <color name="RedB75">#390005</color>
+
+    <!-- Shades of Fuchsia -->
+    <color name="FuchsiaW75">#EDC0DD</color>
+    <color name="FuchsiaW50">#DC80BA</color>
+    <color name="FuchsiaW25">#CB4198</color>
+    <color name="Fuchsia">#B90276</color>
+    <color name="FuchsiaB25">#8B0158</color>
+    <color name="FuchsiaB50">#5D013B</color>
+    <color name="FuchsiaB75">#2E011E</color>
+
+    <!-- Shades of Violet -->
+    <color name="VioletW75">#D3C8DF</color>
+    <color name="VioletW50">#A791BF</color>
+    <color name="VioletW25">#7C5A9F</color>
+    <color name="Violet">#50237F</color>
+    <color name="VioletB25">#3C1A5F</color>
+    <color name="VioletB50">#281240</color>
+    <color name="VioletB75">#140920</color>
+
+    <!-- Shades of Dark Blue -->
+    <color name="DarkBlueW75">#BFD5E3</color>
+    <color name="DarkBlueW50">#7FAAC8</color>
+    <color name="DarkBlueW25">#4080AD</color>
+    <color name="DarkBlue">#005691</color>
+    <color name="DarkBlueB25">#00406D</color>
+    <color name="DarkBlueB50">#002B49</color>
+    <color name="DarkBlueB75">#001624</color>
+
+    <!-- Shades of Light Blue -->
+    <color name="LightBlueW75">#BFE3F3</color>
+    <color name="LightBlueW50">#7FC6E7</color>
+    <color name="LightBlueW25">#40AADB</color>
+    <color name="LightBlue">#008ECF</color>
+    <color name="LightBlueB25">#006A9B</color>
+    <color name="LightBlueB50">#004768</color>
+    <color name="LightBlueB75">#002434</color>
+
+    <!-- Shades of Turquoise -->
+    <color name="TurquoiseW75">#BFE9EB</color>
+    <color name="TurquoiseW50">#7FD3D7</color>
+    <color name="TurquoiseW25">#40BEC4</color>
+    <color name="Turquoise">#00A8B0</color>
+    <color name="TurquoiseB25">#007E84</color>
+    <color name="TurquoiseB50">#005458</color>
+    <color name="TurquoiseB75">#002A2C</color>
+
+    <!-- Shades of Light Green -->
+    <color name="LightGreenW75">#DDEFC7</color>
+    <color name="LightGreenW50">#BBDE8F</color>
+    <color name="LightGreenW25">#9ACE58</color>
+    <color name="LightGreen">#78BE20</color>
+    <color name="LightGreenB25">#5A8E18</color>
+    <color name="LightGreenB50">#3C5F10</color>
+    <color name="LightGreenB75">#1E3008</color>
+
+    <!-- Shades of Dark Green -->
+    <color name="DarkGreenW75">#BFD8D1</color>
+    <color name="DarkGreenW50">#7FB0A4</color>
+    <color name="DarkGreenW25">#408977</color>
+    <color name="DarkGreen">#006249</color>
+    <color name="DarkGreenB25">#004937</color>
+    <color name="DarkGreenB50">#003125</color>
+    <color name="DarkGreenB75">#001912</color>
+
+    <!-- Shades of Dark Gray -->
+    <color name="DarkGrayW75">#D4D7DA</color>
+    <color name="DarkGrayW50">#A8AFB5</color>
+    <color name="DarkGrayW25">#525F6B</color>
+    <color name="DarkGray">#3D4750</color>
+    <color name="DarkGrayB25">#3D4750</color>
+    <color name="DarkGrayB50">#293036</color>
+    <color name="DarkGrayB75">#15181B</color>
+
+    <!-- Shades of Light Gray -->
+    <color name="LightGrayW75">#EFEFF0</color>
+    <color name="LightGrayW50">#DFDFE0</color>
+    <color name="LightGrayW25">#CFD0D1</color>
+    <color name="LightGray">#BFC0C2</color>
+    <color name="LightGrayB25">#8F9091</color>
+    <color name="LightGrayB50">#606061</color>
+    <color name="LightGrayB75">#303031</color>
+
+    <!-- Shades of Yellow -->
+    <color name="YellowW75">#FEEBC5</color>
+    <color name="YellowW50">#FDD78B</color>
+    <color name="YellowW25">#FDC351</color>
+    <color name="Yellow">#FCAF17</color>
+    <color name="YellowB25">#BD8311</color>
+    <color name="YellowB50">#7E580C</color>
+    <color name="YellowB75">#3F2C06</color>
+</resources>

@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+targetCompatibility = '1.7'
+sourceCompatibility = '1.7'
+
+repositories {
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api' }
+}
+
+dependencies {
+    compile 'com.github.iotaledger:iota~lib~java:0.9.10'
+    //testCompile 'junit:junit:4.12'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.0.0-M1'
+    //testCompile 'org.junit.jupiter:junit-jupiter-api'
+    testCompile 'junit:junit:4.12'
+}
